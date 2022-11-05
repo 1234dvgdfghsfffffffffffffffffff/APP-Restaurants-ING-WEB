@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/Style.css">
+    <title>Nuevo Restaurante</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="col-lg-6">
+
+            <style>
+                   body {
+                    background-image: url('../IMG/Agregar_Restaurante.webp');
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                h1 {
+                    color: blue;
+                    font-weight: bold;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+            </style>
+
+            <br>
+            <h1 class="neon3">Agregar Restaurante</h1><br><br><br><br>
+            <form method="POST" action="#">
+
+                <div>
+                    <div>
+                        <label>Nombre:</label>
+                        <input class="form-control" type="text" placeholder="Nombre"><br>
+                    </div>
+                    <div>
+                        <label>Descripción:</label>
+                        <input class="form-control" type="text" placeholder="Descripción"><br>
+                    </div>
+                    <div>
+                        <label>Dirección:</label>
+                        <input class="form-control" type="text" placeholder="Dirección"><br>
+                    </div>
+                </div>
+                <label>Imagen URL:</label>
+                <input class="form-control" type="url" placeholder="URL"><br>
+                <div>
+            </form>
+            <br>
+            <input class="btn btn-success" type="submit" value="Agregar">
+            <a class="btn btn-default" color="red" href="../index.html">Regresar</a><br><br><br>
+            <a class="btn btn-primary" href="../Pages/Buscar_Restaurantes.html">Buscar Restaurante</a>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>

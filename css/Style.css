@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Mukta';
+    src: url(Mukta-Regular.ttf);
+}
+
+m{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta';
+}
+
+.neon {
+    font-size: 6em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #2f03f4,
+    0 0 25px #2f03f4,
+    0 0 50px #2f03f4,
+    0 0 100px #2f03f4;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.neon2 {
+    font-size: 3em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 50px #000000,
+    0 0 25px #000000,
+    0 0 50px #000000,
+    0 0 100px #000000;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.neon3 {
+    font-size: 4rem;
+    font-weight: 500;
+    color: rgb(253, 135, 0);
+    text-shadow: 0 0 20px #000000,
+    0 0 25px #000000,
+    0 0 50px #000000,
+    0 0 100px #000000;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+/*.neon:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}*/
+
+<style>
+body {
+    background-image: url('./IMG/Restaurant.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+</style>
